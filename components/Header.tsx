@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Header() {
   return (
-    <header className="w-full p-4 border-b shadow-md flex justify-between items-center sticky top-0 z-10">
+    <header className="w-full p-4 border-b shadow-md flex justify-between items-center sticky top-0 bg-white">
       <div className="bg-gray-400 rounded-md py-2 px-4 hover:bg-gray-200 hover:transform hover:duration-500">
         <h2 className="">logo</h2>
       </div>
